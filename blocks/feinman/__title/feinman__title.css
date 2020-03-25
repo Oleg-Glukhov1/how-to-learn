@@ -1,0 +1,10 @@
+@import url(../__title/feinman__title.css);
+.feinman__title {
+    justify-content: center;
+    margin: 0 auto;
+    width: 648px;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+@import url(../__column-links/footer__column-links.css);
+.footer__column-links {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 16px 0;
+    
+}

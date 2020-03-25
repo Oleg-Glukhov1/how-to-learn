@@ -1,0 +1,9 @@
+@import url(../__buy-link/khan__buy-link.css);
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    align-items: baseline;
+    text-decoration: none;
+    color: #2F80ED;
+}
