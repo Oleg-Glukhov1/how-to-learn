@@ -3,4 +3,6 @@
     width: 608px;
     height: 620px;
     margin-right: 20px;
+    object-fit: cover;
+    object-position: left top;
 }

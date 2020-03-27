@@ -1,6 +1,5 @@
 @import url(../__column/footer__column.css);
 .footer__column {
     display: flex;
-    margin: 0 auto;
     min-height: 350px;
 }
