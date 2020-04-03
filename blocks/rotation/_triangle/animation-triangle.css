@@ -1,5 +1,5 @@
-@import url(../_triangle/animation_triangle.css);
-.animation_triagle {
+@import url(../_triangle/.animation-triagle);
+.animation-triagle {
     animation: rotation 20s linear infinite;
 }
 @keyframes rotation {

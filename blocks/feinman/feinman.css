@@ -2,8 +2,6 @@
 @import url(../feinman/__subtitle/feinman__subtitle.css);
 @import url(../feinman/__title/feinman__title.css);
 .feinman {
-    
-    padding-top: 100px;
     position: relative;
     height: 790px;
     background-color: #F2F2F2;

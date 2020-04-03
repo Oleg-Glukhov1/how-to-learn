@@ -1,4 +1,4 @@
-@import url(../_content/footer__column_content_social.css);
+@import url(../_social/footer__column_content_social.css);
 .footer__column_content_social {
     flex-direction: column;
 }

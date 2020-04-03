@@ -6,13 +6,13 @@
     <title>Научиться учиться</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body class="root">
-    <div>
+<body>
+    <div class="root">
         <header class="header">
             <img src="images/logo.svg" alt="Янндекс.Практикум" class="logo logo_place_header">
             <h1 class="header__title">Научиться учиться</h1>
             <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в
-                своей жизни?<a href="#" class="link_opacity header__link">Узнать&rarr;</a></p>
+                своей жизни?<a href="#" class="header__link">Узнать&rarr;</a></p>
                 <img src="images/two_again.png" alt="Здесь должно быть изображжение" class="header__main-illustration">
             <div class="animation-square header__square-pic"></div>
         </header>
@@ -70,11 +70,9 @@
             <h2 class="section-title">Видео нa TED</h2>
                 <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
                 <div class="video__iframes">
-                <iframe class="video__iframe" width="513" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
-                <iframe class="video__iframe" width="513" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
-                
+                <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+                <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
                 </div>
-                
         </section>
         <section class="oakley">
             <div class="two-columns">
@@ -86,13 +84,10 @@
                 </div>
         </section>
         <section class="feinman">
-               
                 <h2 class="feinman__title">Метод Фейнмана</h2>
                 <p class="feinman__subtitle">Выучить и не забыть.</p>
-                
-                <a class="link_opacity feinman__link" href="#">Подробнее&rarr;</a>
+                <a class="feinman__link" href="#">Подробнее&rarr;</a>
             </section>
-        
             <section class="digits">
                 <h2 class="section-title">Цифры и факты</h2>
                 <p class="section-subtitle">Про учёбу и мозг</p>
@@ -140,20 +135,17 @@
                     <p class="khan__autor">Салман Хан</p>
                     <h2 class="khan__title">Весь мир — школа</h2>
                     <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-                    <h3 class="khan__quote-author">Джордж Лукас</h3>
+                    <p class="khan__quote-author">Джордж Лукас</p>
                     <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
                     <div class="khan__book-container">
                        <img class="khan__book-pic" src="images/images_sprint-2/book.jpg" alt="Книга">
-                       <a class="link_opacity khan__buy-link" href="#">Купить книгу&rarr;</a>
-                        
+                       <a class="khan__buy-link" href="#">Купить книгу&rarr;</a>   
                     </div>
-                    
-                    
                 </div>
             </section>
                <section class="kaufman">
                  <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-                 <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+                 <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
                  <div class="table table_theme_dark">
                     <div class="table__cell table__cell_theme_dark">
                         <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -197,18 +189,17 @@
                         <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
                     </div>
                 </div>
-                <div class="animation_triagle kaufman__triangle"></div>
+                <div class="animation-triagle kaufman__triangle"></div>
             </section>
             <section class="resources">
                 <h2 class="section-title">Полезные ресурсы</h2>
                 <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-                <div class="resources__logo-zone">
-                    <img class="resources__logo" src="images/images_sprint-2/logo/arzamas.svg" alt="Арзамас">
-                     <img class="resources__logo" src="images/images_sprint-2/logo/n1.svg" alt="Н+1">
-                      <img class="resources__logo" src="images/images_sprint-2/logo/polka.svg" alt="Полка">
-                       <img class="resources__logo" src="images/images_sprint-2/logo/strelka.svg" alt="Стрелка">
-                    
-                </div>
+                <ul class="resources__logo-zone">
+                    <li><a href="#"><img class="resources__logo" src="images/images_sprint-2/logo/arzamas.svg" alt="Арзамас"></a></li>
+                    <li><a href="#"><img class="resources__logo" src="images/images_sprint-2/logo/n1.svg" alt="Н+1"></a></li>
+                    <li><a href="#"><img class="resources__logo" src="images/images_sprint-2/logo/polka.svg" alt="Полка"></a></li>
+                    <li><a href="#"><img class="resources__logo" src="images/images_sprint-2/logo/strelka.svg" alt="Стрелка"></a></li>
+                </ul>
             </section>
         </main>
         <footer class="footer">
@@ -220,25 +211,25 @@
                 <nav class="footer__column footer__column_content_info">
                     <h3 class="footer__column-heading">О практикуме</h3>
                     <ul class="footer__column-links">
-                        <li><a href="#" class="link_opacity footer__column-link">Главная</a></li>
-                        <li><a href="#" class="link_opacity footer__column-link">Концепция</a></li>
-                        <li><a href="#" class="link_opacity footer__column-link">Наставники</a></li>
+                        <li><a href="#" class="footer__column-link">Главная</a></li>
+                        <li><a href="#" class="footer__column-link">Концепция</a></li>
+                        <li><a href="#" class="footer__column-link">Наставники</a></li>
                     </ul>
                 </nav>
                 <nav class="footer__column footer__column_content_social">
                     <h3 class="footer__column-heading">Соцсети</h3>
                     <ul class="footer__column-links">
                         <li>
-                            <a href="#" class="link_opacity footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook"
-                                    class="footer__cocial-icon">Фейсбук</a>
+                            <a href="#" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Фейсбук"
+                                    class="footer__cocial-icon">Fecebook</a>
                                     </li>
                         <li>
-                            <a href="#" class="link_opacity footer__column-link"><img src="./images/vk_white.svg" alt="Вконтакте"
+                            <a href="#" class="footer__column-link"><img src="./images/vk_white.svg" alt="Вконтакте"
                                     class="footer__cocial-icon">ВКонтакте</a>
                                     </li>
                         <li>
-                            <a href="#" class="link_opacity footer__column-link"><img src="./images/instagram_white.svg" alt="instagram"
-                                    class="footer__cocial-icon">Инстаграм</a>
+                            <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Инстаграм"
+                                    class="footer__cocial-icon">Instagram</a>
                         </li>
                     </ul>
                 </nav>

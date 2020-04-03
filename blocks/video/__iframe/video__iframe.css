@@ -1,6 +1,8 @@
 @import url(../__iframe/video__iframe.css);
-.video__iframes {
-    width: 515px;
-    height: 316px;
-    
-} 
+.video__iframe {
+    margin: 0 10px;
+    width: 513px;
+    height:  316px;
+    border: 0;
+
+}

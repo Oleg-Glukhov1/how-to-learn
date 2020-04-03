@@ -1,5 +1,0 @@
-@import url(../_link/link_opacity.css);
-.link_opacity:hover {
-     opacity: 0.5;
-     transition: 0.5s linear;
-}
