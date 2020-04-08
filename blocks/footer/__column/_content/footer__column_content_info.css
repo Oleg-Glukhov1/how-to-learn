@@ -1,6 +1,4 @@
-@import url(../_info/footer__column_content_info.css);
 .footer__column_content_info {
-    
     flex-direction: column;
     text-decoration: none;
 }

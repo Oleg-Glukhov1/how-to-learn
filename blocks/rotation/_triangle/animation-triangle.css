@@ -1,4 +1,3 @@
-@import url(../_triangle/.animation-triagle);
 .animation-triagle {
     animation: rotation 20s linear infinite;
 }

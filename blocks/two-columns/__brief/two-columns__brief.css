@@ -1,4 +1,3 @@
-@import url(../__brief/two-columns__brief.css);
 .two-columns__brief {
     display: flex;
     max-width: 175px;

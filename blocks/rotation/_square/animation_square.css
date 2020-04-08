@@ -1,4 +1,3 @@
-@import url(../_square/animation_square.css);
 .animation-square {
     animation: rotation 20s linear infinite;
 }
